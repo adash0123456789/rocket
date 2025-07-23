@@ -1,0 +1,17 @@
+rocket/
+├── hardware/
+│   └── MyAccel.sv
+├── src/main/scala/
+│   ├── MyAccelBlackBox.scala
+│   ├── MyAccelTL.scala
+│   └── MiniSoC.scala
+├── testbench/
+│   └── tb_minisoc.sv
+├── software/
+│   ├── accel_test.c
+│   ├── linker.ld
+│   └── start.S
+├── vsrc/
+│   └── MyAccel.sv
+├── Makefile
+└── README.md
